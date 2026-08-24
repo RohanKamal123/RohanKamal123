@@ -13,9 +13,8 @@ import argparse
 from PIL import Image, ImageOps
 
 
-def build(src, out, cols, detail, color, gap):
+def build(src, out, cols, detail, color, gap, bg_cutoff):
     img = Image.open(src).convert("RGB")
-    img = ImageOps.autocontrast(img, cutoff=1)
     w, h = img.size
     rows = max(1, round(cols * h / w))
     small = img.resize((cols, rows), Image.LANCZOS)
@@ -36,6 +35,9 @@ def build(src, out, cols, detail, color, gap):
     for y in range(rows):
         for x in range(cols):
             lum = gx[x, y] / 255.0
+            # drop the light studio background
+            if lum >= bg_cutoff:
+                continue
             # darker pixels -> larger dots
             r = r_max * ((1 - lum) ** detail)
             if r < 0.35:
@@ -66,5 +68,7 @@ if __name__ == "__main__":
                     help="contrast curve; lower = punchier")
     ap.add_argument("--color", action="store_true")
     ap.add_argument("--gap", type=float, default=0.08)
+    ap.add_argument("--bg-cutoff", type=float, default=1.0, dest="bg_cutoff",
+                    help="skip pixels brighter than this (0-1) to drop a light background")
     a = ap.parse_args()
-    build(a.src, a.out, a.cols, a.detail, a.color, a.gap)
+    build(a.src, a.out, a.cols, a.detail, a.color, a.gap, a.bg_cutoff)
