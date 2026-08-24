@@ -9,7 +9,7 @@ on:
     - cron: "0 */12 * * *"   # twice a day
   push:
     branches:
-      - main
+      - claude/github-profile-design-vqpwit
   workflow_dispatch:          # lets you run it manually from the Actions tab
 
 permissions:

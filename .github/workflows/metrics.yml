@@ -17,7 +17,7 @@ on:
     - cron: "0 */6 * * *"     # every 6 hours
   push:
     branches:
-      - main
+      - claude/github-profile-design-vqpwit
   workflow_dispatch:
 
 permissions:
