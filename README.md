@@ -58,8 +58,19 @@ between machine learning and the real world, and ships them in public.
 
 ## `~/` the numbers
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RohanKamal123&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9&ring_color=39d353" alt="GitHub stats">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RohanKamal123&layout=compact&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9&langs_count=8" alt="most used languages">
+<!-- github-profile-summary-cards is self-maintained and reliably up, unlike the
+     public github-readme-stats instance which frequently gets rate-limited. -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RohanKamal123&theme=github_dark" width="82%" alt="profile summary">
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RohanKamal123&theme=github_dark" height="195" alt="stats">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RohanKamal123&theme=github_dark" height="195" alt="most committed languages">
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RohanKamal123&theme=github_dark" height="195" alt="repos per language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RohanKamal123&theme=github_dark&utcOffset=6" height="195" alt="productive time">
 
 <br>
 
@@ -94,10 +105,18 @@ between machine learning and the real world, and ships them in public.
 
 ## `~/` selected work
 
-<a href="https://github.com/RohanKamal123/CARE_AI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RohanKamal123&repo=CARE_AI&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9" alt="CARE_AI"></a>
-<a href="https://github.com/RohanKamal123/INTERPRETER_WITH_BRAIN"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RohanKamal123&repo=INTERPRETER_WITH_BRAIN&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9" alt="INTERPRETER_WITH_BRAIN"></a>
-<a href="https://github.com/RohanKamal123/DailyAIChallenge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RohanKamal123&repo=DailyAIChallenge&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9" alt="DailyAIChallenge"></a>
-<a href="https://github.com/RohanKamal123/UIU-LostandFound"><img src="https://github-readme-stats.vercel.app/api/pin/?username=RohanKamal123&repo=UIU-LostandFound&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=39d353&text_color=c9d1d9" alt="UIU-LostandFound"></a>
+<!-- Static table renders instantly and never depends on a third-party card
+     service. Descriptions/stack pulled from each repo - edit freely. -->
+<sub>
+
+| project | what it is | stack |
+|---|---|---|
+| **[INTERPRETER&#95;WITH&#95;BRAIN](https://github.com/RohanKamal123/INTERPRETER_WITH_BRAIN)** | Stealth AI interview assistant | `React` `Vite` `Electron` `DeepSeek` |
+| **[UIU-LostandFound](https://github.com/RohanKamal123/UIU-LostandFound)** | Lost &amp; Found system for the UIU campus | `Python` |
+| **[CARE&#95;AI](https://github.com/RohanKamal123/CARE_AI)** | AI-assisted care/health web app | `JavaScript` |
+| **[DailyAIChallenge](https://github.com/RohanKamal123/DailyAIChallenge)** | Daily AI / ML coding challenges | `Python` |
+
+</sub>
 
 </div>
 
